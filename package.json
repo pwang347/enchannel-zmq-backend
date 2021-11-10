@@ -30,12 +30,11 @@
     "semantic-release": "^17.4.2",
     "spawnteract": "^5.0.1",
     "ts-jest": "^25.2.1",
-    "typescript": "^3.8.3",
-    "zeromq": "^5.2.0"
+    "typescript": "^3.8.3"
   },
   "dependencies": {
     "@nteract/messaging": "^7.0.0",
-    "jmp": "^2.0.0",
+    "jmp-zeromq6": "^3.1.0",
     "rxjs": "^6.3.3",
     "uuid": "^7.0.0"
   },

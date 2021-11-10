@@ -1,5 +1,5 @@
 import { Channels, JupyterMessage } from "@nteract/messaging";
-import * as moduleJMP from "jmp";
+import * as moduleJMP from "jmp-zeromq6";
 import { fromEvent, merge, Observable, Subject, Subscriber } from "rxjs";
 import { FromEventTarget } from "rxjs/internal/observable/fromEvent";
 import { map, publish, refCount } from "rxjs/operators";
